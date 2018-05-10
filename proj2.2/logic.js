@@ -603,15 +603,6 @@ function redrawTicket(currentTicket, ticketContainer){
 
       });
 
-      entree[2].forEach(function(remove){
-        var removeName = new createjs.Text("- " + remove, "16px Arial", TEXT_COLOR);
-        removeName.x = x1 + 20;
-        removeName.y = y1;
-        ticketContainer.addChild(removeName);
-        y1 += 30;
-
-      });
-
       var removeName = new createjs.Text("Side: Onion", "16px Arial", TEXT_COLOR);
       removeName.x = x1 + 20;
       removeName.y = y1;
